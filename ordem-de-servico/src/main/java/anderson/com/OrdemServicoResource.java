@@ -23,9 +23,8 @@ public class OrdemServicoResource {
     }
 
     @POST
-    @Transactional
+    @Produces(MediaType.APPLICATION_JSON)
     public void novaOrdemServico(InserirOrdemServicoDTO inserirOrdemServicoDTO){
-        OrdemServico ordenServico = new OrdemServico();
-        ordemServicoService.novaOrdemServico();
+        ordemServicoService.novaOrdemServico(inserirOrdemServicoDTO);
     }
 }
