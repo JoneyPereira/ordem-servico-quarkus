@@ -1,3 +1,6 @@
-org\anderson\MyRemoteService.class
-org\anderson\GreetingResource.class
-org\anderson\MyRemoteService$Extension.class
+br\com\controleservico\Application.class
+br\com\controleservico\infra\ConnectionFactory.class
+br\com\controleservico\doa\OrdemServicoDAO.class
+br\com\controleservico\model\Categoria.class
+br\com\controleservico\doa\IOrdemServicoDAO.class
+br\com\controleservico\model\OrdemServico.class
